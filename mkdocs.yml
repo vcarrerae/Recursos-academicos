@@ -1,0 +1,9 @@
+site_name: Recursos Académicos
+site_author: Dr. Victor H. Carrera Escobedo
+
+theme:
+name: material
+palette:
+scheme: default
+primary: indigo
+accent: blue
