@@ -1,0 +1,57 @@
+# [AM] Evaluación de la unidad 6
+
+---
+
+La evaluación de la Unidad 6 se llevará a cabo a partir del desarrollo de un proyecto por equipos de cuatro personas. Cada pareja debe de elegir **uno** de los problemas de tal manera que **no puede haber dos equipos resolviendo el mismo problema**. 
+
+Una vez que un equipo se compromete con un problema, deberá desarrollar lo que indique el mismo. Los entregables para la unidad serán:
+
+- Un reporte de investigación (pdf) completo que debe contener:
+    - Portada (Obligatoria)
+    - Resumen (10)
+    - Marco teórico (15)
+    - Metodología (25)
+    - Resultados (35)
+    - Conclusiones (10)
+    - Bibliografía (5)
+    - Evidencia de que se hicieron las mediciones (indispensable)
+- Una evaluación oral a partir de una presentación de 10 minutos con 5 de preguntas. La presentación debe estar basada en el reporte de investigación.
+
+Puede encontrar instrucciones detalladas para la redacción del reporte en el siguiente [**enlace**](Manual%20de%20reportes%20de%20investigaci%C3%B3n%20376fcd2155c78003a935ed67b1785453.md).
+
+- El conjunto de datos así como su análisis en formato excel.
+
+De manera que los reportes funcionen como evidencia de la unidad, la sección de resultados del reporte deberá de contener:
+
+- Diagramas de dispersión entre las variables con su respectivo análisis.
+- Coeficiente de correlación entre las variables y su implicación/significado.
+- Uso del método de mínimos cuadrados para encontrar los parámetros de la recta de regresión.
+- Ecuación de la recta de la regresión lineal y la interpretación de los componentes de ésta.
+
+# Problema 1: Contaminación acústica (Garay)
+
+- **Variable Independiente (X):** Flujo vehicular (Número de autos que pasan por una calle específica en un lapso de 5 minutos).
+- **Variable Dependiente (Y):** Nivel de ruido ambiental promedio en decibeles (dB).
+- **Metodología:** Los estudiantes eligen 20 puntos diferentes en su ciudad (desde calles residenciales muy tranquilas hasta avenidas principales). En cada punto, cuentan los vehículos durante 5 minutos y simultáneamente miden el ruido promedio utilizando una aplicación gratuita de sonómetro en su celular.
+- **Objetivo:** Entender cómo el diseño de las vías de comunicación afecta la calidad de vida y la contaminación acústica.
+
+# Problema 2: Consumo doméstico de agua (Piñón)
+
+- **Variable Independiente (X):** Tiempo total de uso de regaderas en la vivienda al día (minutos).
+- **Variable Dependiente (Y):** Consumo total diario de agua en la vivienda (litros o metros cúbicos).
+- **Metodología:** Cada estudiante lleva un registro continuo en su propia casa durante 15 días. Al inicio y al final de cada día, toman la lectura del medidor de agua de la calle. Durante el día, anotan en una bitácora cuántos minutos estuvo abierta la regadera en total sumando los baños de todos los habitantes.
+- **Objetivo:** Relación directa entre hábitos cotidianos y presión sobre los recursos hídricos. Determinar los efectos de los hábitos sobre el consumo a nivel macro.
+
+# Problema 3: Tasa de infiltración de suelo (Aguilar)
+
+- **Variable Independiente (X):** Distancia desde el centro de un sendero de tierra no pavimentado (centímetros).
+- **Variable Dependiente (Y):** Tiempo de infiltración de un volumen estándar de agua (segundos).
+- **Metodología:** Fabrican un "infiltrómetro" rudimentario cortando la base de una botella de PET de 2 litros. Entierran el borde inferior unos 2 centímetros en el suelo para sellarlo, vierten 500 ml de agua y cronometran cuánto tarda en ser absorbida por la tierra. Hacen una medición en el centro exacto del camino (donde la gente pisa), otra a 30 cm del centro, otra a 60 cm, etc.
+- **Objetivo:** Determinar la degradación física del suelo por compactación antrópica.
+
+# Problema 4: Salud del arbolado
+
+- **Variable Independiente (X):** Porcentaje estimado de suelo no pavimentado (tierra o pasto) en un radio de 2 metros alrededor del tronco.
+- **Variable Dependiente (Y):** Circunferencia del tronco del árbol medida a la altura del pecho (centímetros).
+- **Metodología:** El equipo selecciona una sola especie de árbol que sea muy común en las calles de la ciudad. Salen a medir unos 30 ejemplares de esa misma especie utilizando una simple cinta métrica de costura. Deben buscar árboles en situaciones variadas: algunos casi asfixiados por banquetas de concreto y otros en camellones o parques amplios.
+- **Objetivo:**  Determinar el impacto del sellado del suelo (concreto) en el desarrollo de la biomasa urbana.
