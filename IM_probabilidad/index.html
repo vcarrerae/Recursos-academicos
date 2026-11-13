@@ -1,0 +1,1140 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Dr. Victor H. Carrera Escobedo">
+      
+      
+      
+        <link rel="prev" href="../CM_matematicas_avanzadas/">
+      
+      
+        <link rel="next" href="../MM_ecuaciones_diferenciales/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>[IM] Probabilidad - V.H. Carrera-Escobedo</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#im-probabilidad-y-estadistica" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="V.H. Carrera-Escobedo" class="md-header__button md-logo" aria-label="V.H. Carrera-Escobedo" data-md-component="logo">
+      
+  <img src="../img/milogo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            V.H. Carrera-Escobedo
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              [IM] Probabilidad
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="V.H. Carrera-Escobedo" class="md-nav__button md-logo" aria-label="V.H. Carrera-Escobedo" data-md-component="logo">
+      
+  <img src="../img/milogo.png" alt="logo">
+
+    </a>
+    V.H. Carrera-Escobedo
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cursos actuales
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cursos actuales
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MM_calculo_diferencial_integral/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    [MM] Cálculo Diferencial e Integral
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MM_calculo_vectorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    [MM] Cálculo Vectorial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Otros cursos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Otros cursos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AL_estadistica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    [AL] Estadística
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CM_calculo_aplicado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    [CM] Cálculo aplicado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CM_matematicas_avanzadas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    [CM] Matemáticas avanzadas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    [IM] Probabilidad
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    [IM] Probabilidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#descripcion-del-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Descripción del curso
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#descripcion-del-curso_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Descripción del curso
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bibliografía
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tareas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tareas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#penalizacion-por-tardanzas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Penalización por tardanzas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#politicas-del-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Políticas del curso
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aula-virtual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aula virtual
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MM_ecuaciones_diferenciales/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    [MM] Ecuaciones diferenciales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Calificaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Calificaciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#descripcion-del-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Descripción del curso
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#descripcion-del-curso_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Descripción del curso
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bibliografía
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evaluación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tareas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tareas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#penalizacion-por-tardanzas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Penalización por tardanzas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#politicas-del-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Políticas del curso
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aula-virtual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Aula virtual
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="im-probabilidad-y-estadistica">[IM] Probabilidad y estadística</h1>
+<table>
+<thead>
+<tr>
+<th>Salón de clases</th>
+<th>116</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grupos</td>
+<td>4IM1</td>
+</tr>
+<tr>
+<td>Docente a cargo</td>
+<td>Prof. VIctor Hugo Carrera Escobedo</td>
+</tr>
+<tr>
+<td>Horarios de consulta</td>
+<td>Jueves y viernes, de 13:00 a 15:00 hrs</td>
+</tr>
+<tr>
+<td>Correo electrónico</td>
+<td>vcarrerae@ipn.mx</td>
+</tr>
+<tr>
+<td>Foro de discusión</td>
+<td><a href="https://discord.gg/YktxYTjwxR">https://discord.gg/YktxYTjwxR</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="descripcion-del-curso">Descripción del curso</h2>
+<hr />
+<p>La presente unidad contribuye al perfil de egreso del Ingeniero en Inteligencia Artificial con las habilidades de análisis y aplicación de los principios de estadística y probabilidad en la descripción de fenómenos aleatorios para la validación de sistemas inteligentes que utilicen aprendizaje de máquina, procesamiento automático de lenguaje natural, visión artificial y modelos bioinspirados y en el desarrollo de herramientas estadísticas. Además de fomentar el razonamiento estocástico y el trabajo en equipo con un alto sentido ético y de responsabilidad.</p>
+<p><em>Prerrequisitos: Cálculo, cálculo multivariable, fundamentos de programación</em></p>
+<p><em>Correlatividades: Matemáticas avanzadas para la ingeniería, Aprendizaje máquina, Visión artificial, Procesamiento de señales</em></p>
+<h2 id="descripcion-del-curso_1">Descripción del curso</h2>
+<hr />
+<ul>
+<li>
+<p>Unidad 1: Estadística descriptiva</p>
+<p>1.1 Poblaciones, muestreo de datos, y variabilidad
+1.2 Descriptores muestrales de centralización y dispersión
+1.3 Histogramas, gráficos de caja y bigotes
+1.4 Herramientas gráficas para observaciones multivariadas 
+1.5 Covarianza, matriz de covarianza y sus propiedades </p>
+</li>
+<li>
+<p>Unidad 2: Probabilidad</p>
+<p>2.1 Medidas de probabilidad
+2.2 Variables aleatorias
+2.3 Funciones de distribución de probabilidad
+2.4 Clasificación de una funcióDn de distribución de probabilidad por las propiedades del proceso modelado
+2.4.1 Distribución geométrica
+2.4.2 Distribución exponencial
+2.4.3 Distribución de Poisson
+2.4.4 Distribución binomial
+2.4.5 Distribución binomial negativa</p>
+</li>
+<li>
+<p>Unidad 3: Inferencia estadística paramétrica</p>
+<p>3.1 Estimadores y estimación puntual
+3.2 Estimación por intervalos
+3.3 Pruebas de hipótesis
+3.4 Elementos de inferencia estadística</p>
+</li>
+<li>
+<p>Unidad 4: Regresión</p>
+<p>4.1 Regresión lineal 
+4.2 Regresión logística
+4.3 Solución numérica del método de mínimos cuadrados
+4.4 Predicción y clasificación estadística</p>
+</li>
+<li>
+<p>Unidad 5: Inferencia causal</p>
+<p>5.1 Inferencia causal
+5.2 Modelos causales
+5.3 Modelos gráficos en la estadística inferencial
+5.4 Efectos de las intervenciones en la estadística inferencial </p>
+</li>
+</ul>
+<h2 id="bibliografia">Bibliografía</h2>
+<hr />
+<p>Material bibliográfico de consulta</p>
+<table>
+<thead>
+<tr>
+<th>Título</th>
+<th>Autor</th>
+<th>Editorial</th>
+<th>Año</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Probabilidad y estadística: aplicaciones a la ingeniería y la ciencia</td>
+<td>E. Gutiérrez</td>
+<td>Grupo Editorial Patria</td>
+<td>2014</td>
+</tr>
+<tr>
+<td>Probability and statistics for computer science</td>
+<td>J. Johnson</td>
+<td>John Wiley and sons</td>
+<td>2008</td>
+</tr>
+<tr>
+<td>Probability and statistics for data science</td>
+<td>N. Matloff</td>
+<td>Chapman and Hall</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>Estadística</td>
+<td>M. Spiegel</td>
+<td>McGraw-Hill</td>
+<td>2009</td>
+</tr>
+<tr>
+<td>Probabilidad</td>
+<td>G. Velasco</td>
+<td>Trillas</td>
+<td>2015</td>
+</tr>
+</tbody>
+</table>
+<h2 id="evaluacion">Evaluación</h2>
+<hr />
+<table>
+<thead>
+<tr>
+<th>Evaluación</th>
+<th>Descripción</th>
+<th>Fecha límite</th>
+<th>Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tarea</td>
+<td>Conjunto de ejercicios resueltos en formato pdf</td>
+<td></td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Actividades</td>
+<td>Evaluación rápida al término de cada sección.</td>
+<td></td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Examen parcial</td>
+<td>Examen tradicional en papel y lápiz al término de cada unidad.</td>
+<td></td>
+<td>70%</td>
+</tr>
+<tr>
+<td>Participación</td>
+<td>Correcciones a los apuntes durante la clase</td>
+<td></td>
+<td>10%</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>- Tarea</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<pre><code>La tarea consiste en un conjunto de ejercicios, mismo que puede encontrar en la siguiente sección. Deberán resolverse los ejercicios marcados en rojo y anexarse a un archivo en PDF para entregarse en la plataforma de Microsoft Teams en tiempo y forma.
+</code></pre>
+<ul>
+<li>
+<p>Actividades</p>
+<p>El curso está diseñado para ser impartir por unidades, mismas que están divididas en secciones. Al término de cada sección se les presenta un solo ejercicio que deberán resolver usando sus apuntes (más no dispositivos electrónicos) en un tiempo límite. Cada actividad se califica con 0 ó 1 dependiendo del resultado del ejercicio. Dado que la actividad depende del avance del grupo, no se puede programar, por lo que las actividades se dan en fechas aleatorias. La mejor manera de prepararse, es haciendo la tarea conforme se avanza en las clases. </p>
+</li>
+<li>
+<p>Examen parcial</p>
+<p>El examen parcial cubrirá todo el material dado durante la unidad correspondiente y consiste en un conjunto de ejercicios que deberán resolverse escribiendo de manera clara y precisa el procedimiento matemático así como acompañar sus cálculos con una explicación breve de la lógica física/matemática con la que estructura la solución. La forma ideal para prepararse es estudiar tanto los apuntes de las clases como las actividades y tarea. Durante el examen, no se autoriza abandonar el aula ni el uso de dispositivos inteligentes. Cualquier intento ó sospecha de deshonestidad es causal de una penalización sobre el examen ó incluso su anulación. </p>
+</li>
+<li>
+<p>Participación</p>
+<p>Las calificaciones de participación se basan en los aportes durante el curso. Esto incluye la interacción en el foro de discusión, la asistencia a tutoriales y la participación en las discusiones en clase. Cuándo un estudiante obtenga una participación, el profesor lo anunciará en voz alta, la participación debe ser cobrada por el estudiante al final de esa clase, de lo contrario, la participación se pierde. </p>
+</li>
+</ul>
+<h2 id="tareas">Tareas</h2>
+<hr />
+<table>
+<thead>
+<tr>
+<th>Unidad</th>
+<th>Enlace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unidad 1</td>
+<td><a href="https://correoipn-my.sharepoint.com/:b:/g/personal/vcarrerae_ipn_mx/IQBUIRatLxSWT4hru_UIizsWAahtxtd2U-NHQSg1PAc-uhM">Enlace 1</a></td>
+</tr>
+<tr>
+<td>Unidad 2</td>
+<td><a href="https://correoipn-my.sharepoint.com/:b:/g/personal/vcarrerae_ipn_mx/IQAPDr6HKEkITpTEBykhefykARgzRurn1JNv8bR97FvnaNk?e=3g83O1">Enlace 2</a></td>
+</tr>
+<tr>
+<td>Unidad 3</td>
+<td><a href="https://correoipn-my.sharepoint.com/:b:/g/personal/vcarrerae_ipn_mx/IQBXRJLs7DbzRoOH1ifhIvQRAbrLVe1MzEwg1pq0qumaQcE?e=r7JoqM">Enlace 3</a></td>
+</tr>
+<tr>
+<td>Unidad 4</td>
+<td>Enlace 4</td>
+</tr>
+</tbody>
+</table>
+<h2 id="penalizacion-por-tardanzas">Penalización por tardanzas</h2>
+<hr />
+<p>Los trabajos entregados con posterioridad a la fecha de entrega pautada serán penalizados con una tasa del 5% diario sobre la calificación, incluyendo los fines de semana. </p>
+<h2 id="politicas-del-curso">Políticas del curso</h2>
+<hr />
+<ul>
+<li>
+<p><strong>Integridad académica</strong></p>
+<p>Se espera que todos los estudiantes mantengan los más altos estándares de integridad académica. Esto incluye, pero no se limita a, evitar acciones como hacer trampa, plagiar y proporcionar información falsa. Cualquier estudiante que sea encontrado en violación de la política de integridad académica enfrentará acciones disciplinarias, que podrían incluir una calificación reprobatoria del curso y sanciones adicionales por parte de la universidad.</p>
+</li>
+<li>
+<p><strong>Asistencia y participación</strong></p>
+<p>La asistencia regular y la participación activa en clase son fundamentales para comprender el material del curso y obtener buenos resultados. En caso de no poder asistir a una clase, se propone enviar un correo electrónico al docente a cargo con anticipación.</p>
+</li>
+<li>
+<p><strong>Política de uso de dispositivos electrónicos</strong></p>
+<p>El uso de dispositivos electrónicos, como computadoras portátiles y teléfonos celulares, está permitido únicamente para tomar notas y propósitos relacionados con el curso. No se permite el empleo de dispositivos que interrumpa la clase o distraiga a otros estudiantes ni durante la aplicación de las evaluaciones.</p>
+</li>
+<li>
+<p><strong>Horarios de consulta</strong></p>
+<p>El horario de consulta es un momento para que hagas preguntas, discutas el material del curso o pidas ayuda con las evaluaciones. Si no puedes asistir al horario de consulta programado, por favor, envía un correo electrónico al docente o al codocente para acordar un horario alternativo.</p>
+</li>
+<li>
+<p><strong>Comunicaciones</strong></p>
+<p>Toda comunicación relacionada con el curso se llevará a cabo a través de correo electrónico o el foro de discusión en el sitio web del curso. Por favor, revisa tu correo electrónico y el sitio web del curso regularmente para estar al tanto de las actualizaciones.</p>
+</li>
+<li>
+<p><strong>Adaptación</strong></p>
+<p>Si necesitas alguna adaptación debido a una discapacidad u otras razones, por favor contacta al docente a cargo lo antes posible para hacer los arreglos necesarios.</p>
+</li>
+<li>
+<p><strong>Cambios en el programa del curso</strong></p>
+<p>El docente a cargo se reserva el derecho de realizar cambios en el programa del curso, incluyendo fechas de entrega y fechas de exámenes. Cualquier cambio será anunciado en clase y publicado en el sitio web del curso.</p>
+</li>
+</ul>
+<h2 id="aula-virtual">Aula virtual</h2>
+<hr />
+<p><a href="https://teams.microsoft.com/l/team/19%3A8Z5BOaq4vfWhnY5s59qahhGme5K6hOtp7AbprLIUbTM1%40thread.tacv2/conversations?groupId=aca77544-f70f-47eb-9c4a-06c0debec1fb&amp;tenantId=f94bf4d9-8097-4794-adf6-a5466ca28563">General | [2026-2][4IM1] Probabilidad | Microsoft Teams</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>
