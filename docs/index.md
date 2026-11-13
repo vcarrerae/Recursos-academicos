@@ -1,10 +1,12 @@
 
 
 - **Redes Sociales**
+
+
 | Columna 1 | Columna 2 | Columna 3 |
 |-----------|-----------|-----------|
 | [Youtube](https://www.youtube.com/@vilyvulgar)  | [Instagram](https://www.instagram.com/vilyvulgar/)  | [Medium](https://medium.com/@vilyvulgar)  |
-| Fila 2 A  | Fila 2 B  | Fila 2 C  |
+
 - **Correo**
     
     [vcarrerae@ipn.mx](mailto:vcarrerae@ipn.mx)
