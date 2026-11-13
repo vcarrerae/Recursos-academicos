@@ -13,6 +13,6 @@ nav:
   - Inicio: index.md
   - Cursos actuales:
     - [MM] Cálculo Diferencial e Integral: MM_calculo_diferencial_integral.md
-    - [MM] Cálculo Vectorial: MM_calculo_vectorial
+    - [MM] Cálculo Vectorial: MM_calculo_vectorial.md
   - Otros cursos:
     - [AL/AM] Estadística: AL_Estadistica.md
