@@ -1,142 +1,23 @@
+# Bienvenida
 
-
-- **Redes Sociales**
-
-| Vídeo | Imagen | Texto |
-|-----------|-----------|-----------|
-| [Youtube](https://www.youtube.com/@vilyvulgar)  | [Instagram](https://www.instagram.com/vilyvulgar/)  | [Medium](https://medium.com/@vilyvulgar)  |
----
-
-- **Correo**
-    
-    [vcarrerae@ipn.mx](mailto:vcarrerae@ipn.mx)
-    
-- **Discord**
-    
-    [Enlace](https://discord.com/invite/YktxYTjwxR)
-    
-
-# Dr. Victor H. Carrera Escobedo
-
----
-
-### Profesor del Instituto Politécnico Nacional
+**Profesor del Instituto Politécnico Nacional**
 
 > ¡Hola! Soy **Victor**, doctor en nanociencias y materiales y profesor universitario. 
 
 Me complace darte la bienvenida.
 
-Si estás viendo este sitio es muy probable que vaya a ser tu profesor durante el periodo en curso. Este sitio web es un concentrador de recursos para que puedas encontrar el material necesario para tu curso así como mis redes sociales y medios de contacto. 
+Si estás viendo este sitio es muy probable que sea tu profesor durante el periodo en curso. Este sitio es un concentrador de recursos para que puedas encontrar el material necesario para el curso así como mis redes sociales y medios de contacto. 
 
 Por otro lado, si estás interesado en hacer tu servicio social ó participar en proyectos de invesitgación, por favor, ponte en contacto conmigo.
-> 
+>
 
-### Conocimientos
+# Contacto
 
+| Vídeo | Imagen | Texto | Correo | Mensajería |
+|-----------|-----------|-----------|-----------|-----------|
+| [Youtube](https://www.youtube.com/@vilyvulgar)  | [Instagram](https://www.instagram.com/vilyvulgar/)  | [Medium](https://medium.com/@vilyvulgar)  | [eMail](mailto:vcarrerae@ipn.mx) | [Discord](https://discord.com/invite/YktxYTjwxR) |
 ---
 
-- **Lenguajes de Programación**
-    
-    C / C++
-    
-    ---
-    
-    C# - Sharp
-    
-    ---
-    
-    Java
-    
-    ---
-    
-    JavaScript / TypeScript
-    
-    ---
-    
-    Python
-    
-    ---
-    
-    Kotlin
-    
-    ---
-    
-    PHP
-    
-    ---
-    
-    Dart
-    
-    ---
-    
-    SQL / NoSQL
-    
-    ---
-    
-    HTML / CSS
-    
-- **Idiomas**
-    
-    Español (Nativo)
-    
-    ---
-    
-    Inglés (Intermedio - Técnico)
-    
-- **Stacks**
-    
-    Visual Studio (.NET)
-    
-    ---
-    
-    Visual Studio Code
-    
-    ---
-    
-    Android Studio
-    
-    ---
-    
-    DevC++ / Embarcadero
-    
-    ---
-    
-    JetBrains IDE´s
-    
-    ---
-    
-    React / React Native
-    
-    ---
-    
-    Kotlin Multi-Platform
-    
-    ---
-    
-    Flutter / FlutterFlow
-    
-    ---
-    
-    Framer
-    
-    ---
-    
-    Wix Studio
-    
-    ---
-    
-    WordPress
-    
-    ---
-    
-
-# Cursos del periodo 2027-1
-
----
-
-[[MM] Cálculo vectorial ](https://app.notion.com/p/MM-C-lculo-vectorial-306fcd2155c7805d8f0cd7ddc1afffec?pvs=21)
-
-[[MM] Cálculo diferencial e integral](https://app.notion.com/p/MM-C-lculo-diferencial-e-integral-3acfcd2155c780d2995fe2518801308d?pvs=21)
 
 # Horario
 
