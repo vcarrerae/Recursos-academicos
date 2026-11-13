@@ -6,6 +6,7 @@
 | Columna 1 | Columna 2 | Columna 3 |
 |-----------|-----------|-----------|
 | [Youtube](https://www.youtube.com/@vilyvulgar)  | [Instagram](https://www.instagram.com/vilyvulgar/)  | [Medium](https://medium.com/@vilyvulgar)  |
+---
 
 - **Correo**
     
