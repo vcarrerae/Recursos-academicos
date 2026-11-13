@@ -1,4 +1,4 @@
-![Avatar](img/avatar.png){: width="150px" }
+<img src="img/avatar.png"
 
 **@vilyvulgar**
 
