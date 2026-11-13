@@ -1,8 +1,6 @@
-# Website personal
 
----
 
-![Gemini_Generated_Image_ks685aks685aks68.png](Website%20personal/Gemini_Generated_Image_ks685aks685aks68.png)
+![img/avatar.png](img/avatar.png)
 
 **@vilyvulgar**
 
