@@ -1,7 +1,5 @@
 # Bienvenida
 
-**Profesor del Instituto Politécnico Nacional**
-
 > ¡Hola! Soy **Victor**, doctor en nanociencias y materiales y profesor universitario.
 > Me complace darte la bienvenida.
 > Si estás viendo este sitio es muy probable que sea tu profesor durante el periodo en curso. Este sitio es un concentrador de recursos para que puedas encontrar el material necesario para el curso así como mis redes sociales y medios de contacto.
