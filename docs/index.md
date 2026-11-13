@@ -1,4 +1,4 @@
-![ [img/avatar.png](img/avatar.png) ] 
+![img/avatar.png](img/avatar.png)
 
 **@vilyvulgar**
 
