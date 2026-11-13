@@ -1,6 +1,4 @@
-![[img/avatar.png|300]]
-
-<!-- ![ [img/avatar.png](img/avatar.png) ] -->
+![ [img/avatar.png](img/avatar.png) ] 
 
 **@vilyvulgar**
 
