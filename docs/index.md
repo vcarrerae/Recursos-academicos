@@ -1,6 +1,6 @@
 
 
-![img/avatar.png](img/avatar.png)
+![img/avatar.png](img/avatar.png){width=300 height=200}
 
 **@vilyvulgar**
 
