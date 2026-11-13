@@ -11,6 +11,8 @@ theme:
 
 nav:
   - Inicio: index.md
-  - Cursos:
+  - Cursos actuales:
     - Cálculo Diferencial e Integral: MM_calculo_diferencial_integral.md
     - Cálculo Vectorial: MM_calculo_vectorial
+  - Otros cursos:
+    - 
