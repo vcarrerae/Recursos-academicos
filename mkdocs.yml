@@ -3,7 +3,7 @@ site_author: Dr. Victor H. Carrera Escobedo
 
 theme:
   name: material
-  logo: img/avatar.png
+  logo: img/milogo.png
   palette:
     scheme: default
     primary: indigo
