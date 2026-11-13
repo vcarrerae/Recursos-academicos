@@ -2,14 +2,10 @@
 
 **Profesor del Instituto Politécnico Nacional**
 
-> ¡Hola! Soy **Victor**, doctor en nanociencias y materiales y profesor universitario. 
-
-Me complace darte la bienvenida.
-
-Si estás viendo este sitio es muy probable que sea tu profesor durante el periodo en curso. Este sitio es un concentrador de recursos para que puedas encontrar el material necesario para el curso así como mis redes sociales y medios de contacto. 
-
-Por otro lado, si estás interesado en hacer tu servicio social ó participar en proyectos de invesitgación, por favor, ponte en contacto conmigo.
->
+> ¡Hola! Soy **Victor**, doctor en nanociencias y materiales y profesor universitario.
+> Me complace darte la bienvenida.
+> Si estás viendo este sitio es muy probable que sea tu profesor durante el periodo en curso. Este sitio es un concentrador de recursos para que puedas encontrar el material necesario para el curso así como mis redes sociales y medios de contacto.
+> Por otro lado, si estás interesado en hacer tu servicio social ó participar en proyectos de invesitgación, por favor, ponte en contacto conmigo.
 
 # Contacto
 
