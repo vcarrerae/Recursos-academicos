@@ -2,8 +2,7 @@
 
 - **Redes Sociales**
 
-
-| Columna 1 | Columna 2 | Columna 3 |
+| Vídeo | Imagen | Texto |
 |-----------|-----------|-----------|
 | [Youtube](https://www.youtube.com/@vilyvulgar)  | [Instagram](https://www.instagram.com/vilyvulgar/)  | [Medium](https://medium.com/@vilyvulgar)  |
 ---
